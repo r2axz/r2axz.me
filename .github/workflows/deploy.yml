@@ -16,5 +16,4 @@ jobs:
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
           restore-keys: |
             ${{ runner.os }}-gems-
-      - uses: lemonarc/jekyll-action
-      
+      - uses: lemonarc/jekyll-action@1.0.0
