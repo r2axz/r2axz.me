@@ -26,14 +26,26 @@ description: >- # this means to ignore newlines until "baseurl:"
   so please don't expect too much.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://r2axz.me" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: jekyllrb
-github_username:  r2axz
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-katex
+
+author:
+  name: Kirill Kotyagin
+  email: r2axz@r2axz.me
+
+disqus:
+  shortname: r2axz-me
+
+minima:
+  social_links:
+    github: r2axz
+    instagram: r2axz_hamblog
+    telegram: r2axz
+    twitter: ~
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -54,7 +66,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-disqus:
-  shortname: r2axz-me
-  
