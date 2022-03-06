@@ -27,6 +27,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://r2axz.me" # the base hostname & protocol for your site, e.g. http://example.com
 
+ignore_theme_config: true
+
 # Build settings
 theme: minima
 plugins:
@@ -35,7 +37,7 @@ plugins:
 
 author:
   name: Kirill Kotyagin
-  email: r2axz@r2axz.me
+  email: ~
 
 disqus:
   shortname: r2axz-me
