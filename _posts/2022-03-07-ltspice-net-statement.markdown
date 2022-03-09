@@ -58,7 +58,7 @@ Those who had succesfully arrived to this point would then most of the times
 calculate S21 logmag with the following math
 
 {% katex display %}
-S21\_Logmag = 20log_{10}(\frac{\frac{1}{12}V}{V}) \approx -21.58\ dB \tag{6}
+S21\_Logmag = 20log_{10}(\frac{\frac{1}{12}V}{V}) \approx\newline\approx -21.58\ dB \tag{6}
 {% endkatex %}
 
 **Which unfortunately is completely wrong in the VNA context.**
