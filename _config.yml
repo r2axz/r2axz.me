@@ -20,10 +20,7 @@
 
 title: R2AXZ Blog
 description: >- # this means to ignore newlines until "baseurl:"
-  This is my small ham radio and software development related personal blog.
-  Please take all the information here with a huge grain of salt and
-  use it at your own risk. Frankly speaking, I am not much of a blogger,
-  so please don't expect too much.
+  A small ham radio and software development related personal blog.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://r2axz.me" # the base hostname & protocol for your site, e.g. http://example.com
 
