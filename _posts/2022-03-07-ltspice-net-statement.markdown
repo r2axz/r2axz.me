@@ -51,16 +51,16 @@ V_{R_L} = IR_L = \frac{R_LV}{R_S + R + R_L}\tag{4}
 Substituting the values from schematics into equation (4) gives
 
 {% katex display %}
-V_{R_L} = \frac{1}{12}V
+V_{R_L} = \frac{1}{12}V \tag{5}
 {% endkatex %}
 
 Those who had succesfully arrived to this point would then most of the times
 calculate S21 logmag with the following math
 
 {% katex display %}
-S21\_Logmag = 20log_{10}(\frac{\frac{1}{12}V}{V}) \approx -21.58\ dB
+S21\_Logmag = 20log_{10}(\frac{\frac{1}{12}V}{V}) \approx -21.58\ dB \tag{6}
 {% endkatex %}
 
-**Which unfortunatelty is wrong in the VNA context.**
+**Which unfortunately is completely wrong in the VNA context.**
 
 (to be continued)
