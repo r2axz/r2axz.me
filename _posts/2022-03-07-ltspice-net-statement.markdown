@@ -135,7 +135,7 @@ which completely agrees with our predictions.
 
 We need to remember that LTspice always uses 1 unit of whatever quantity you
 measure as the 0 dB reference point for the decibel representation plot. In
-other words, 1 volt or amper is 0 dB, 2 is 6.02 dB, etc., etc.
+other words, 1 V or A is 0 dB, 2 is 6.02 dB, etc., etc.
 
 So the thing is, different software/hardware uses various dB references, and one
 can (and almost certainly will) miss that when comparing measurements with
