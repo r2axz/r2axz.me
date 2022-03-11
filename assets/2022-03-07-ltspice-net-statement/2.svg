@@ -1,3 +1,56 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="326px" height="194px" viewBox="-0.5 -0.5 261 150"><defs/><g><rect x="13.75" y="129" width="32.5" height="20" fill="none" stroke="none" pointer-events="all"/><path d="M 13.75 135.67 L 30 149 L 46.25 135.67 Z" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/><path d="M 30 129 L 30 135.67" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/><path d="M 30 129 L 30 109" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/><path d="M 30 69 L 30 39" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/><path d="M 30 39 L 90 39" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/><ellipse cx="30" cy="89" rx="20" ry="20" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 58px; height: 1px; padding-top: 89px; margin-left: 1px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: normal; word-wrap: normal;">1</div></div></div></foreignObject><text x="30" y="93" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">1</text></switch></g><ellipse cx="230" cy="89" rx="20" ry="20" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 58px; height: 1px; padding-top: 89px; margin-left: 201px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: normal; word-wrap: normal;">2</div></div></div></foreignObject><text x="230" y="93" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">2</text></switch></g><path d="M 230 39 L 170 39" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/><path d="M 230 69 L 230 39" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/><path d="M 213.75 135.67 L 230 149 L 246.25 135.67 Z" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/><path d="M 230 129 L 230 135.67" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/><path d="M 230 129 L 230 109" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 58px; height: 1px; padding-top: 104px; margin-left: 41px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: normal; word-wrap: normal;">Port 1<br />50Ω</div></div></div></foreignObject><text x="70" y="108" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">Port 1...</text></switch></g><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 58px; height: 1px; padding-top: 104px; margin-left: 161px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: normal; word-wrap: normal;">Port 2<br />50Ω</div></div></div></foreignObject><text x="190" y="108" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">Port 2...</text></switch></g><path d="M 40 19 L 73.63 19" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/><path d="M 78.88 19 L 71.88 22.5 L 73.63 19 L 71.88 15.5 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 18px; height: 1px; padding-top: 7px; margin-left: 50px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: normal; word-wrap: normal;">I</div></div></div></foreignObject><text x="59" y="11" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">I</text></switch></g><path d="M 90 39 L 170 39" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/></g><switch><g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/><a transform="translate(0,-5)" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems" target="_blank"><text text-anchor="middle" font-size="10px" x="50%" y="100%">Text is not SVG - cannot display</text></a></switch></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 442.5 332.5" style="enable-background:new 0 0 442.5 332.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#0E0E0E;stroke-miterlimit:10;}
+	.st1{font-family:'Geneva';}
+	.st2{font-size:23.4772px;}
+	.st3{fill:none;stroke:#1C1C1C;stroke-miterlimit:10;}
+</style>
+<g>
+	<line class="st0" x1="179.8" y1="43.7" x2="171.2" y2="43.7"/>
+	<line class="st0" x1="188.3" y1="26.6" x2="179.8" y2="43.7"/>
+	<line class="st0" x1="205.4" y1="60.8" x2="188.3" y2="26.6"/>
+	<line class="st0" x1="222.5" y1="26.6" x2="205.4" y2="60.8"/>
+	<line class="st0" x1="239.5" y1="60.8" x2="222.5" y2="26.6"/>
+	<line class="st0" x1="256.6" y1="43.7" x2="248.1" y2="43.7"/>
+	<line class="st0" x1="248.1" y1="43.7" x2="239.5" y2="60.8"/>
+	<text transform="matrix(1 0 0 1 206.8162 20.6343)" class="st1 st2">R</text>
+	<text transform="matrix(1 0 0 1 190.4578 84.7827)" class="st1 st2">500</text>
+	<line class="st0" x1="26.1" y1="218.7" x2="43.2" y2="218.7"/>
+	<line class="st0" x1="26.1" y1="261.4" x2="43.2" y2="261.4"/>
+	<line class="st0" x1="34.6" y1="210.2" x2="34.6" y2="227.3"/>
+	<line class="st0" x1="34.6" y1="282.7" x2="34.6" y2="274.2"/>
+	<line class="st0" x1="34.6" y1="197.4" x2="34.6" y2="205.9"/>
+	<path class="st0" d="M58.8,215.9c13.3,13.3,13.3,35,0,48.3s-35,13.3-48.3,0s-13.3-35,0-48.3C23.8,202.6,45.5,202.6,58.8,215.9"/>
+	<text transform="matrix(1 0 0 1 79.469 249.063)" class="st1 st2">V</text>
+	<line class="st0" x1="34.6" y1="154.7" x2="34.6" y2="163.2"/>
+	<line class="st0" x1="17.6" y1="146.2" x2="34.6" y2="154.7"/>
+	<line class="st0" x1="51.7" y1="129.1" x2="17.6" y2="146.2"/>
+	<line class="st0" x1="17.6" y1="112" x2="51.7" y2="129.1"/>
+	<line class="st0" x1="51.7" y1="94.9" x2="17.6" y2="112"/>
+	<line class="st0" x1="34.6" y1="77.9" x2="34.6" y2="86.4"/>
+	<line class="st0" x1="34.6" y1="86.4" x2="51.7" y2="94.9"/>
+	<text transform="matrix(1 0 0 1 55.9915 112.4683)" class="st1 st2">RS</text>
+	<text transform="matrix(1 0 0 1 55.9915 150.8862)" class="st1 st2">50</text>
+	<line class="st0" x1="393.2" y1="205.9" x2="393.2" y2="214.5"/>
+	<line class="st0" x1="376.1" y1="197.4" x2="393.2" y2="205.9"/>
+	<line class="st0" x1="410.3" y1="180.3" x2="376.1" y2="197.4"/>
+	<line class="st0" x1="376.1" y1="163.2" x2="410.3" y2="180.3"/>
+	<line class="st0" x1="410.3" y1="146.2" x2="376.1" y2="163.2"/>
+	<line class="st0" x1="393.2" y1="129.1" x2="393.2" y2="137.6"/>
+	<line class="st0" x1="393.2" y1="137.6" x2="410.3" y2="146.2"/>
+	<text transform="matrix(1 0 0 1 414.553 163.6919)" class="st1 st2">RL</text>
+	<text transform="matrix(1 0 0 1 414.553 202.1089)" class="st1 st2">R</text>
+	<polygon class="st3" points="19.7,316.9 49.6,316.9 34.6,331.8 	"/>
+	<polygon class="st3" points="378.3,316.9 408.1,316.9 393.2,331.8 	"/>
+	<line class="st3" x1="171.2" y1="43.7" x2="34.6" y2="43.7"/>
+	<line class="st3" x1="393.2" y1="43.7" x2="256.6" y2="43.7"/>
+	<line class="st3" x1="34.6" y1="77.9" x2="34.6" y2="43.7"/>
+	<line class="st3" x1="393.2" y1="129.1" x2="393.2" y2="43.7"/>
+	<line class="st3" x1="34.6" y1="197.4" x2="34.6" y2="163.2"/>
+	<line class="st3" x1="34.6" y1="316.9" x2="34.6" y2="282.7"/>
+	<line class="st3" x1="393.2" y1="316.9" x2="393.2" y2="214.5"/>
+</g>
+</svg>
