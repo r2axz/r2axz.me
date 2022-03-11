@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 443.7 297" style="enable-background:new 0 0 443.7 297;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#0E0E0E;stroke-miterlimit:10;}
+	.st1{font-family:'Geneva';}
+	.st2{font-size:23.3652px;}
+	.st3{fill:none;stroke:#1C1C1C;stroke-miterlimit:10;}
+</style>
+<g>
+	<line class="st0" x1="178.9" y1="43.5" x2="170.4" y2="43.5"/>
+	<line class="st0" x1="187.4" y1="26.5" x2="178.9" y2="43.5"/>
+	<line class="st0" x1="204.4" y1="60.5" x2="187.4" y2="26.5"/>
+	<line class="st0" x1="221.4" y1="26.5" x2="204.4" y2="60.5"/>
+	<line class="st0" x1="238.4" y1="60.5" x2="221.4" y2="26.5"/>
+	<line class="st0" x1="255.4" y1="43.5" x2="246.9" y2="43.5"/>
+	<line class="st0" x1="246.9" y1="43.5" x2="238.4" y2="60.5"/>
+	<text transform="matrix(1 0 0 1 205.8315 20.5356)" class="st1 st2">R</text>
+	<text transform="matrix(1 0 0 1 189.5512 84.521)" class="st1 st2">500</text>
+	<line class="st0" x1="26" y1="132.7" x2="43" y2="132.7"/>
+	<line class="st0" x1="26" y1="175.2" x2="43" y2="175.2"/>
+	<line class="st0" x1="34.5" y1="124.2" x2="34.5" y2="141.2"/>
+	<line class="st0" x1="34.5" y1="196.5" x2="34.5" y2="188"/>
+	<line class="st0" x1="34.5" y1="111.5" x2="34.5" y2="120"/>
+	<path class="st0" d="M58.5,130c13.3,13.3,13.3,34.8,0,48.1c-13.3,13.3-34.8,13.3-48.1,0c-13.3-13.3-13.3-34.8,0-48.1
+		C23.7,116.7,45.2,116.7,58.5,130"/>
+	<text transform="matrix(1 0 0 1 79.0918 162.9819)" class="st1 st2">V</text>
+	<text transform="matrix(1 0 0 1 79.0918 186.3472)" class="st1 st2">AC 1</text>
+	<text transform="matrix(1 0 0 1 79.0918 209.7124)" class="st1 st2">R</text>
+	<text transform="matrix(0.583 0 0 0.583 93.25 217.4927)" class="st1 st2">S</text>
+	<text transform="matrix(1 0 0 1 101.5043 209.7124)" class="st1 st2">=50</text>
+	<line class="st0" x1="391.3" y1="188" x2="391.3" y2="196.5"/>
+	<line class="st0" x1="374.3" y1="179.5" x2="391.3" y2="188"/>
+	<line class="st0" x1="408.3" y1="162.5" x2="374.3" y2="179.5"/>
+	<line class="st0" x1="374.3" y1="145.5" x2="408.3" y2="162.5"/>
+	<line class="st0" x1="408.3" y1="128.5" x2="374.3" y2="145.5"/>
+	<line class="st0" x1="391.3" y1="111.5" x2="391.3" y2="120"/>
+	<line class="st0" x1="391.3" y1="120" x2="408.3" y2="128.5"/>
+	<text transform="matrix(1 0 0 1 412.5766 145.9897)" class="st1 st2">R</text>
+	<text transform="matrix(0.583 0 0 0.583 426.7348 153.77)" class="st1 st2">L</text>
+	<text transform="matrix(1 0 0 1 412.5766 184.2231)" class="st1 st2">50</text>
+	<polygon class="st3" points="19.6,281.4 49.4,281.4 34.5,296.3 	"/>
+	<polygon class="st3" points="376.5,281.4 406.2,281.4 391.3,296.3 	"/>
+	<text transform="matrix(1 0 0 1 368.9458 32.5288)" class="st1 st2">V</text>
+	<text transform="matrix(0.583 0 0 0.583 385.9331 40.3095)" class="st1 st2">RL</text>
+	<text transform="matrix(1 0 0 1 161.9321 281.9321)" class="st1 st2">.ac list {1}</text>
+	<line class="st3" x1="170.4" y1="43.5" x2="34.5" y2="43.5"/>
+	<line class="st3" x1="391.3" y1="43.5" x2="255.4" y2="43.5"/>
+	<line class="st3" x1="34.5" y1="111.5" x2="34.5" y2="43.5"/>
+	<line class="st3" x1="391.3" y1="111.5" x2="391.3" y2="43.5"/>
+	<line class="st3" x1="34.5" y1="281.4" x2="34.5" y2="196.5"/>
+	<line class="st3" x1="391.3" y1="281.4" x2="391.3" y2="196.5"/>
+</g>
+</svg>
