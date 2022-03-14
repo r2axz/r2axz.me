@@ -53,7 +53,7 @@ equally well.
 
 Enjoy the result!
 
-![Exported SVG](/assets/2022-03-11-exporting-web-friendly-schematic-and-plot-images-from-ltspice/LTC6991_F14.svg){: .post-figure }
+![Exported SVG](/assets/2022-03-14-exporting-images-from-ltspice/LTC6991_F14.svg){: .post-figure }
 *Figure 1*
 
 #### Exporting Plots
@@ -87,7 +87,7 @@ possible to adjust the plots aspect ratio in Illustrator.
     ```background-color: black``` for the plot image CSS class;
 11. Save the image as SVG;
 
-![Exported SVG](/assets/2022-03-11-exporting-web-friendly-schematic-and-plot-images-from-ltspice/LTC6991_F14_plot.svg){: .post-figure .ltspice-plot}
+![Exported SVG](/assets/2022-03-14-exporting-images-from-ltspice/LTC6991_F14_plot.svg){: .post-figure .ltspice-plot}
 *Figure 2*
 
 Although my method of exporting images from LTspice requires some manual work,
@@ -100,9 +100,8 @@ a basic level but could not export parasitic parameters of a voltage source in
 my schematic. Also, it does not support plots.
 
 The second one is [lt2circuitikz](https://github.com/ckuhlmann/lt2circuitikz),
-which actually exports to LaTeX and generates pgf/TikZ picture of the schematic,
-using the CircuiTikZ package to draw the symbols. Again, not exactly what I want
-and missing support for plots.
+which actually exports to LaTeX. Again, not exactly what I want
+and no support for plots as well.
 
 Do you have your own favorite way of exporting images from LTspice? Please share
 a comment if you do.
