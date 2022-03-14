@@ -12,33 +12,24 @@ $max-width: 1440px;
 
 @import "minimal-mistakes"; // main partials
 
-html {
-  font-size: 16px;
+.post-figure {
+
+  width: 90%;
 
   @include breakpoint($small) {
-    font-size: 16px;
+    width: 90%;
   }
 
   @include breakpoint($medium) {
-    font-size: 18px;
+    width: 80%;
   }
 
   @include breakpoint($large) {
-    font-size: 18px;
+    width: 80%;
   }
 
   @include breakpoint($x-large) {
-    font-size: 20px;
-  }
-
-}
-
-.post-figure {
-
-  width: 50%;
-
-  @include breakpoint($small) {
-    width: 100%;
+    width: 80%;
   }
 
   display: block;
