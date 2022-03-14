@@ -15,7 +15,7 @@ Of course, I can make screenshots using the built-in OS tools, but it's still a
 mess. First, I need to make sure screenshots have the same size. Second, the
 default LTspice color scheme looks archaic and isn't really compatible with
 pretty much anything. Third, I don't think bitmaps is a way to go anyway. Not
-only they are relatively large, but also they are a huge pain when it comes to
+only they are relatively large, but also it's a huge pain when it comes to
 responsiveness. So, no to bitmaps! But is there any other option left? Turns out
 there is!
 
