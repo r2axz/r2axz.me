@@ -1,6 +1,6 @@
 ---
-layout: post
-title:  "Exporting Web-Friendly Schematic and Plot Images From LTspice"
+layout: single
+title:  "Exporting Images From LTspice"
 date:   2022-03-07 11:00:00 +0300
 categories: electronics
 ---
@@ -13,11 +13,11 @@ where I use it.
 
 Of course, I can make screenshots using the built-in OS tools, but it's still a
 mess. First, I need to make sure screenshots have the same size. Second, the
-default LTspice color scheme looks a tad archaic and isn't really compatible
-with pretty much anything color-wise. Third, I don't think bitmaps is a way to
-go anyway. Not only they are relatively large, but also they are a huge pain in
-the ass when it comes to responsiveness. So, no to bitmaps! But is there any
-other option left? Turns out there is!
+default LTspice color scheme looks archaic and isn't really compatible with
+pretty much anything color-wise. Third, I don't think bitmaps is a way to go
+anyway. Not only they are relatively large, but also they are a huge pain in the
+ass when it comes to responsiveness. So, no to bitmaps! But is there any other
+option left? Turns out there is!
 
 It is possible to convert the LTspice schematic or plot to an SVG image within a
 couple of minutes.
@@ -53,7 +53,7 @@ equally well.
 
 Enjoy the result!
 
-![Exported SVG](/assets/2022-03-11-exporting-web-friendly-schematic-and-plot-images-from-ltspice/LTC6991_F14.svg){: .post-image}
+![Exported SVG](/assets/2022-03-11-exporting-web-friendly-schematic-and-plot-images-from-ltspice/LTC6991_F14.svg){: .post-figure }
 *Figure 1*
 
 #### Exporting Plots
@@ -87,5 +87,5 @@ possible to adjust the plots aspect ratio in Illustrator.
     ```background-color: black``` for the plot image CSS class;
 11. Save the image as SVG;
 
-![Exported SVG](/assets/2022-03-11-exporting-web-friendly-schematic-and-plot-images-from-ltspice/LTC6991_F14_plot.svg){: .ltspice-plot}
+![Exported SVG](/assets/2022-03-11-exporting-web-friendly-schematic-and-plot-images-from-ltspice/LTC6991_F14_plot.svg){: .post-figure .ltspice-plot}
 *Figure 2*

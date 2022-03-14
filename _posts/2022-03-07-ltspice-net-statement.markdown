@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "LTspice .NET Statement"
 date:   2022-03-07 11:00:00 +0300
 categories: electronics
@@ -11,7 +11,7 @@ measurements and calculations.
 
 A while ago, I asked a few fellow hams to solve a simple circuit problem shown on the schematics below.
 
-![circuit problem schematics](/assets/2022-03-07-ltspice-net-statement/1.svg){: .post-image}
+![circuit problem schematics](/assets/2022-03-07-ltspice-net-statement/1.svg){: .post-figure}
 *Figure 1*
 
 The question was, what would a calibrated VNA show on the S21 plot if we
@@ -22,7 +22,7 @@ VNA fundamentals understanding. Anyway, let's see what went wrong.
 
 First, let's make an equivalent circuit.
 
-![VNA calibration](/assets/2022-03-07-ltspice-net-statement/2.svg){: .post-image}
+![VNA calibration](/assets/2022-03-07-ltspice-net-statement/2.svg){: .post-figure}
 *Figure 2*
 
 Since the circuit in Figure 2 does not contain any frequency-dependent or
@@ -121,14 +121,14 @@ the voltage source V. Second, I will add the  AC analysis statement
 
 which tells LTspice to perform AC analysis using a single frequency of 1 Hz.
 
-![LTspice AC analysis](/assets/2022-03-07-ltspice-net-statement/3.svg){: .post-image}
+![LTspice AC analysis](/assets/2022-03-07-ltspice-net-statement/3.svg){: .post-figure}
 *Figure 3*
 [Download this schematic](/assets/2022-03-07-ltspice-net-statement/ac_analysis.asc){: .schematic-download}
 
 If we simulate the circuit and plot the decibel representation of VRL, we'll get
 the following graph
 
-![LTspice AC analysis plot](/assets/2022-03-07-ltspice-net-statement/4.svg){: .ltspice-plot}
+![LTspice AC analysis plot](/assets/2022-03-07-ltspice-net-statement/4.svg){: .post-figure .ltspice-plot}
 *Figure 4*
 
 which completely agrees with our predictions.
@@ -156,7 +156,7 @@ advanced network analyzer.
 
 Let's modify the schematic in Figure 3 and add a .NET statement.
 
-![LTspice AC analysis](/assets/2022-03-07-ltspice-net-statement/5.svg){: .post-image}
+![LTspice AC analysis](/assets/2022-03-07-ltspice-net-statement/5.svg){: .post-figure}
 *Figure 5*
 [Download this schematic](/assets/2022-03-07-ltspice-net-statement/net_analysis.asc){: .schematic-download}
 
@@ -164,7 +164,7 @@ If we run the simulation, switch to the plot window, and choose Add Traces
 (Ctrl/Command-A), we'll see a bunch of new traces that were unavailable
 previously. Let's plot S21(v) and V(vrl).
 
-![LTspice AC analysis plot](/assets/2022-03-07-ltspice-net-statement/6.svg){: .ltspice-plot}
+![LTspice AC analysis plot](/assets/2022-03-07-ltspice-net-statement/6.svg){: .post-figure .ltspice-plot}
 *Figure 6*
 
 Finally, the green trace (S21) agrees with our calculations in Equation 7.
