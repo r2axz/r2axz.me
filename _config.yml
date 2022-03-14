@@ -18,50 +18,57 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: R2AXZ Blog
-description: >- # this means to ignore newlines until "baseurl:"
+locale      : "en-US"
+title       : "R2AXZ Blog"
+description : >- # this means to ignore newlines until "baseurl:"
   A small ham radio and software development related personal blog.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://r2axz.me" # the base hostname & protocol for your site, e.g. http://example.com
-
-ignore_theme_config: true
+baseurl     : "" # the subpath of your site, e.g. /blog
+url         : "https://r2axz.me" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
   - jekyll-katex
 
 author:
   name: Kirill Kotyagin
+  bio: A software developer and ham radio enthusiast.
+  avatar: "/assets/avatars/avatar.jpg"
   email: ~
+  instagram: "r2axz_hamblog"
+  github: "r2axz"
 
-disqus:
-  shortname: r2axz-me
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "r2axz-me"
 
-minima:
-  social_links:
-    github: r2axz
-    instagram: r2axz_hamblog
-    telegram: r2axz
-    twitter: ~
+footer:
+  links:
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/r2axz_hamblog"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/r2axz"
+    - label: "Telegram"
+      icon: "fab fa-fw fa-telegram"
+      url: "https://t.me/r2axz"
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+minimal_mistakes_skin: contrast
+
+defaults:
+  - scope: 
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+words_per_minute: 200
+search: true
