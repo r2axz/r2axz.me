@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Exporting Images From LTspice"
-date:   2022-03-07 11:00:00 +0300
+date:   2022-03-14 11:00:00 +0300
 categories: electronics
 ---
 
