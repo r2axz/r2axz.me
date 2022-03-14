@@ -14,13 +14,13 @@ where I use it.
 Of course, I can make screenshots using the built-in OS tools, but it's still a
 mess. First, I need to make sure screenshots have the same size. Second, the
 default LTspice color scheme looks archaic and isn't really compatible with
-pretty much anything color-wise. Third, I don't think bitmaps is a way to go
-anyway. Not only they are relatively large, but also they are a huge pain in the
-ass when it comes to responsiveness. So, no to bitmaps! But is there any other
-option left? Turns out there is!
+pretty much anything. Third, I don't think bitmaps is a way to go anyway. Not
+only they are relatively large, but also they are a huge pain when it comes to
+responsiveness. So, no to bitmaps! But is there any other option left? Turns out
+there is!
 
-It is possible to convert the LTspice schematic or plot to an SVG image within a
-couple of minutes.
+It is possible to convert the LTspice schematic or plot to an SVG vector image
+within a couple of minutes.
 
 We'll need:
 
@@ -89,3 +89,20 @@ possible to adjust the plots aspect ratio in Illustrator.
 
 ![Exported SVG](/assets/2022-03-11-exporting-web-friendly-schematic-and-plot-images-from-ltspice/LTC6991_F14_plot.svg){: .post-figure .ltspice-plot}
 *Figure 2*
+
+Although my method of exporting images from LTspice requires some manual work,
+it gives me by far the best end result and overall control over the export
+process. For the sake of completeness, I would also like to mention that I found
+two open source solutions for this task.
+
+The first one is [ltspice2svg](https://pypi.org/project/ltspice2svg/), which seemed to work on
+a basic level but could not export parasitic parameters of a voltage source in
+my schematic. Also, it does not support plots.
+
+The second one is [lt2circuitikz](https://github.com/ckuhlmann/lt2circuitikz),
+which actually exports to LaTeX and generates pgf/TikZ picture of the schematic,
+using the CircuiTikZ package to draw the symbols. Again, not exactly what I want
+and missing support for plots.
+
+Do you have your own favorite way of exporting images from LTspice? Please share
+a comment if you do.
