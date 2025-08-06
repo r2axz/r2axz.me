@@ -1,3 +1,4 @@
 baseURL = 'https://r2axz.me/'
 languageCode = 'ru-RU'
 title = 'Заметки радиолюбителя'
+theme = 'hugo-theme-stack'
