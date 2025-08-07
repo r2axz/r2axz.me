@@ -3,5 +3,16 @@ languageCode = 'ru-RU'
 title = 'Заметки радиолюбителя'
 theme = 'hugo-theme-stack'
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
+
 [params]
     favicon = 'favicon/favicon.ico'
+    [params.article]
+        math = true
