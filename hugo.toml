@@ -12,7 +12,7 @@ titleCaseStyle = 'none'
   favicon = 'favicon/favicon.ico'
 
 [params.dateFormat]
-  published = '01 January 2006'
+  published = '02 January 2006'
 
 [params.sidebar.avatar]
   enabled = true
