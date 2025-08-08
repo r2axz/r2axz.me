@@ -5,9 +5,11 @@ theme = 'hugo-theme-stack'
 
 defaultContentLanguage = 'ru'
 
+titleCaseStyle = 'none'
+
 [params]
-    mainSections = ["post"]
-    favicon = 'favicon/favicon.ico'
+  mainSections = ["post"]
+  favicon = 'favicon/favicon.ico'
 
 [params.dateFormat]
   published = '01 January 2006'
