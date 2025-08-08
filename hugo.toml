@@ -25,3 +25,7 @@ defaultContentLanguage = 'ru'
 [markup.goldmark.extensions.passthrough.delimiters]
   block = [['\[', '\]'], ['$$', '$$']]
   inline = [['\(', '\)']]
+
+[params.colorScheme]
+  toggle = false
+  default = 'light'
