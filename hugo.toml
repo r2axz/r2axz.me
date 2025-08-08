@@ -1,18 +1,27 @@
 baseURL = 'https://r2axz.me/'
-languageCode = 'ru-RU'
+languageCode = 'ru-ru'
 title = 'Заметки радиолюбителя'
 theme = 'hugo-theme-stack'
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.extensions]
-      [markup.goldmark.extensions.passthrough]
-        enable = true
-        [markup.goldmark.extensions.passthrough.delimiters]
-          block = [['\[', '\]'], ['$$', '$$']]
-          inline = [['\(', '\)']]
+defaultContentLanguage = 'ru'
 
 [params]
+    mainSections = ["post"]
     favicon = 'favicon/favicon.ico'
-    [params.article]
-        math = true
+
+[params.dateFormat]
+  published = '01 January 2006'
+
+[params.sidebar.avatar]
+  enabled = true
+  local = true
+  src = 'imgs/avatar.jpg'
+
+[params.article]
+  math = true
+
+[markup.goldmark.extensions.passthrough]
+  enable = true
+[markup.goldmark.extensions.passthrough.delimiters]
+  block = [['\[', '\]'], ['$$', '$$']]
+  inline = [['\(', '\)']]
