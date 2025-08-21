@@ -12,7 +12,7 @@ defaults:
     shell: bash
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
     env:
       DART_SASS_VERSION: 1.89.2
