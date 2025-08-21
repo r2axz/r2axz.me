@@ -66,4 +66,15 @@ jobs:
         with:
           path: ./public
           name: r2axz.me
-
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+        - uses: burnett01/rsync-deployments@6.0.0
+          with:
+            switches: -avzr --delete
+            path: _site/
+            remote_path: ${{ secrets.DEPLOYMENT_PATH }}
+            remote_host: ${{ secrets.DEPLOYMENT_HOST }}
+            remote_user: ${{ secrets.DEPLOYMENT_USER }}
+            remote_key: ${{ secrets.DEPLOYMENT_KEY }}
