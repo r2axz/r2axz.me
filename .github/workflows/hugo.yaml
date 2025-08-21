@@ -74,7 +74,7 @@ jobs:
           with:
             switches: -avzr --delete
             path: _site/
-            remote_path: ${{ DEPLOYMENT_PATH }}
-            remote_host: ${{ DEPLOYMENT_HOST }}
-            remote_user: ${{ DEPLOYMENT_USER }}
+            remote_path: ${{ vars.DEPLOYMENT_PATH }}
+            remote_host: ${{ vars.DEPLOYMENT_HOST }}
+            remote_user: ${{ vars.DEPLOYMENT_USER }}
             remote_key: ${{ secrets.DEPLOYMENT_KEY }}
