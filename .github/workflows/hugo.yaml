@@ -64,7 +64,7 @@ jobs:
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
-          path: ./public
+          path: ./public/
           name: r2axz.me
       - name: Deploy Website
         uses: burnett01/rsync-deployments@6.0.0
