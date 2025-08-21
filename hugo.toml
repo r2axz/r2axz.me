@@ -31,3 +31,6 @@ titleCaseStyle = 'none'
 [params.colorScheme]
   toggle = false
   default = 'light'
+
+[[params.widgets.homepage]]
+  type = "search"
