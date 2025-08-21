@@ -64,13 +64,13 @@ jobs:
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
-          path: ./public/
+          path: ./public
           name: r2axz.me
       - name: Deploy Website
         uses: burnett01/rsync-deployments@6.0.0
         with:
             switches: -avzr --delete
-            path: ./public
+            path: ./public/
             remote_path: ${{ vars.DEPLOYMENT_PATH }}
             remote_host: ${{ vars.DEPLOYMENT_HOST }}
             remote_user: ${{ vars.DEPLOYMENT_USER }}
