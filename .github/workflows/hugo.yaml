@@ -62,7 +62,7 @@ jobs:
             ${{ runner.temp }}/hugo_cache
           key: ${{ steps.cache-restore.outputs.cache-primary-key }}
       - name: Upload artifact
-        uses: actions/actions/upload-artifact@v4
+        uses: actions/upload-artifact@v4
         with:
           path: ./public
           name: r2axz.me
