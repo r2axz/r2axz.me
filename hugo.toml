@@ -33,4 +33,34 @@ titleCaseStyle = 'none'
   default = 'light'
 
 [[params.widgets.homepage]]
-  type = "search"
+  type = 'search'
+
+[[params.widgets.homepage]]
+  type = 'archives'
+
+[menus]
+
+  [[menus.main]]
+  identifier = "home"
+  name = "Главная страница"
+  url = "/"
+  weight = 10
+  [menus.main.params]
+  icon = "home"
+
+  [[menus.main]]
+  identifier = "search"
+  name = "Поиск"
+  url = "/page/search/"
+  weight = 20
+  [menus.main.params]
+  icon = "search"
+  newtab = true
+
+  [[menus.main]]
+  identifier = "archives"
+  name = "Архивы"
+  url = "/page/archives/"
+  weight = 30
+  [menus.main.params]
+  icon = "archives"
