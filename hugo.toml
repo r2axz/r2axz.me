@@ -36,6 +36,9 @@ titleCaseStyle = 'none'
   type = 'search'
 
 [[params.widgets.homepage]]
+  type = 'tag-cloud'
+
+[[params.widgets.homepage]]
   type = 'archives'
 
 [menus]
