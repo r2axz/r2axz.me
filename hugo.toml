@@ -32,14 +32,9 @@ titleCaseStyle = 'none'
   toggle = false
   default = 'light'
 
-[[params.widgets.homepage]]
-  type = 'search'
-
-[[params.widgets.homepage]]
-  type = 'tag-cloud'
-
-[[params.widgets.homepage]]
-  type = 'archives'
+[params.widgets]
+  homepage = [{ type = 'search' }, { type = 'tag-cloud' }, { type = 'archives' }]
+  page = [{ type = 'search'}]
 
 [menus]
 
